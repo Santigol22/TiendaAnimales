@@ -1,101 +1,95 @@
-# Mascotas Felices - Tienda de Productos para Animales
+# 🐾 Mascotas Felices
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-## Descripción
+Tienda online responsive para productos de mascotas. Proyecto frontend puro sin backend.
 
-Sitio web responsive para una tienda de productos para mascotas, desarrollado con tecnologías modernas sin backend.
+---
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
 tiendaAnimales/
-├── index.html          # Archivo principal HTML
-├── style.css          # Estilos personalizados
-├── script.js          # Funcionalidad JavaScript
-├── README.md          # Documentación del proyecto
-└── assets/            # Recursos (imágenes, iconos)
+├── index.html              # Página principal
+├── README.md               # Documentación
+├── .gitignore              # Archivos ignorados por Git
+├── css/
+│   └── style.css           # Estilos personalizados
+└── js/
+    └── script.js           # Lógica del frontend
 ```
 
-## Características
+## ✨ Funcionalidades
 
-### Funcionalidades Principales
-- **Navbar Responsive**: Menú de navegación adaptativo con buscador integrado
-- **Carrito de Compras**: Sistema completo de gestión de carrito (agregar, eliminar, actualizar cantidades)
-- **Filtros por Categoría**: Filtrado de productos por tipo de mascota
-- **Buscador en Tiempo Real**: Búsqueda instantánea de productos
-- **Formulario de Registro**: Validaciones HTML5 y CSS
-- **Testimonios**: Sección de clientes satisfechos
-- **FAQ**: Preguntas frecuentes con acordión interactivo
+### Generales
+- ✅ Diseño responsive (móvil, tablet, escritorio)
+- ✅ Navegación suave entre secciones
+- ✅ Animaciones y transiciones CSS
+- ✅ Botón flotante WhatsApp
+- ✅ Botón "Volver arriba"
+- ✅ Toast de notificaciones
 
-### Secciones del Sitio
-1. Header - Navbar con logo, menú y carrito
-2. Hero Section - Banner principal con llamada a la acción
-3. Productos - Catálogo de 12 productos con cards interactivas
-4. Categorías - Cards visuales para Perros, Gatos, Aves, Peces
-5. Registro - Formulario de usuario con validaciones
-6. Testimonios - Reseñas de clientes
-7. FAQ - Preguntas frecuentes
-8. Contacto - Información de contacto
-9. Footer - Redes sociales y enlaces
+### Catálogo y Productos
+- ✅ 12 productos con imágenes reales
+- ✅ Cards con efecto hover
+- ✅ Filtrado por categorías (Perros, Gatos, Aves, Peces)
+- ✅ Buscador en tiempo real
 
-### Elementos Extra
-- Botón flotante de WhatsApp
-- Botón "Volver arriba"
-- Animaciones suaves y transiciones
-- Diseño responsive (móvil, tablet, desktop)
-- Toast de notificaciones al agregar productos
+### Carrito de Compras
+- ✅ Agregar productos
+- ✅ Eliminar productos
+- ✅ Actualizar cantidades
+- ✅ Cálculo de subtotal
+- ✅ Modal de confirmación de compra
+- ✅ Contador dinámico en navbar
 
-## Tecnologías Utilizadas
+### Formulario
+- ✅ Validaciones HTML5
+- ✅ Confirmación de contraseña
+- ✅ Diseño con sombras y bordes redondeados
 
-| Tecnología | Versión |
-|------------|---------|
-| HTML5 | - |
-| CSS3 | - |
-| JavaScript | ES6+ |
-| Bootstrap | 5.3.2 |
-| Bootstrap Icons | 1.11.1 |
+## 🛠️ Tecnologías
 
-## Imágenes
+| Tecnología | Versión | Propósito |
+|------------|---------|-----------|
+| HTML5      | —       | Estructura semántica |
+| CSS3       | —       | Estilos y animaciones |
+| JavaScript | ES6+    | Lógica del carrito, filtros, búsqueda |
+| Bootstrap  | 5.3.2   | Sistema de grillas, componentes UI |
+| Bootstrap Icons | 1.11.1 | Iconografía |
 
-Todas las imágenes provienen de **Unsplash** y son de alta calidad relacionadas con mascotas y productos animales.
+## 🚀 Cómo Ejecutar
 
-## Cómo Ejecutar
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/tu-usuario/tiendaAnimales.git
 
-1. Clonar o descargar el repositorio
-2. Abrir `index.html` en cualquier navegador moderno
-3. No requiere servidor web ni dependencias adicionales
-
-## Navegadores Soportados
-
-- Chrome (última versión)
-- Firefox (última versión)
-- Safari (última versión)
-- Edge (última versión)
-
-## Funcionalidad del Carrito
-
-```javascript
-// Agregar producto
-addToCart(productId)
-
-// Eliminar producto
-removeFromCart(productId)
-
-// Actualizar cantidad
-updateQuantity(productId, change)
-
-// Finalizar compra
-checkout()
+# 2. Abrir el archivo principal
+cd tiendaAnimales
+start index.html        # Windows
+open index.html         # macOS
+xdg-open index.html     # Linux
 ```
 
-## Licencia
+No requiere instalación de dependencias ni servidor web.
+
+## 🌐 Navegadores Compatibles
+
+| Chrome | Firefox | Safari | Edge |
+|--------|---------|--------|------|
+| ✅   | ✅    | ✅   | ✅  |
+
+## 📸 Imágenes
+
+Todas las imágenes provienen de [Unsplash](https://unsplash.com) con licencia gratuita para uso comercial y no comercial.
+
+## 📄 Licencia
 
 Este proyecto es de uso educativo y personal.
 
 ---
 
-**Desarrollado con ❤️ para los amantes de las mascotas**
+<p align="center">Desarrollado con ❤️ para los amantes de las mascotas</p>
